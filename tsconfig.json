@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "lib": ["ES2021"],
+    "module": "commonjs",
+    "target": "es2019",
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny":  true,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
